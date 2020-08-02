@@ -17,16 +17,16 @@
     <title>PapaYEAH!</title>
   </head>
   <body>
-    <audio controls autoplay id='song' class="animate__animated animate__flip"><source src="/Users/franciscosierramunoz/Development/code/Mod_3_Project-working_underscore/papaya-project-backend/public/music/papaya_song.mp3" type="audio/mpeg"/></audio>
+    <audio controls autoplay id='song' class="animate__animated animate__flip"><source src="/Users/jodicroft/Desktop/Flatiron/Mod_3/final-papayeah-project/papaya-project-backend/public/music/papaya_song.mp3" type="audio/mpeg"/></audio>
     <nav id="papaya-nav" class="navbar navbar-expand-lg navbar-light bg-warning" style="border-radius: 20px;">
-        <a style="color: #ffffff; font-family: 'Montserrat', sans-serif; font-weight: bold; font-size: 20px;" class="navbar-brand" href="#">PapaYEAH!</a>
+      <img id="yeah" src="https://i.imgur.com/CgrvWLj.png" style="width: 180px"; class="nav-link" alt="">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a style="color: #ffffff; font-family: 'Montserrat', sans-serif; font-size: 20px;" class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+              <a style="color: #ffffff; font-family: 'Montserrat', sans-serif; font-size: 20px;" class="nav-link" href="#">Cart<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a style="color: #ffffff; font-family: 'Montserrat', sans-serif; font-size: 20px;" class="nav-link" href="#">About Us</a>
@@ -48,7 +48,7 @@
 
 <!-- Carousel -->
 <div style="background-image: url(https://i.imgur.com/nx0UBxe.jpg); background-size: cover;">
-  <div id="carouselExampleControls" class="carousel slide; animate__animated animate__flip" data-ride="carousel" style="width: 1200px; margin: 0 auto">
+  <div id="carouselExampleControls" class="carousel slide; animate__animated animate__flip" data-ride="carousel" data-interval="1500" style="width: 1200px; margin: 0 auto">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="https://i.imgur.com/A5V262Z.png" class="d-block w-100" alt="">
@@ -63,6 +63,9 @@
         <img src="https://i.imgur.com/BTIJyUt.png" class="d-block w-100" alt="">
       </div>
       <div class="carousel-item">
+        <img src="https://i.imgur.com/FaeELs3.png" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
         <img src="https://i.imgur.com/VbcIUPf.png" class="d-block w-100" alt="">
       </div>
       <div class="carousel-item">
@@ -73,6 +76,9 @@
       </div>
       <div class="carousel-item">
         <img src="https://i.imgur.com/Jpj6jpG.png" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.imgur.com/3cF4cpi.png" class="d-block w-100" alt="">
       </div>
       <div class="carousel-item">
         <img src="https://i.imgur.com/OXUuxLz.png" class="d-block w-100" alt="">
@@ -106,6 +112,9 @@
       </div>
       <div class="carousel-item">
         <img src="https://i.imgur.com/gXrvHzu.png" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.imgur.com/RFXaRbC.png" class="d-block w-100" alt="">
       </div>
       <div class="carousel-item">
         <img src="https://i.imgur.com/jZgcWJF.png" class="d-block w-100" alt="">
@@ -213,19 +222,22 @@
           <div class="carousel-item active" data-interval="500">
             <img src="https://i.imgur.com/PGJFg2F.png" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item" data-interval="500">
+          <div class="carousel-item" data-interval="900">
             <img src="https://i.imgur.com/BTIJyUt.png" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item" data-interval="500">
+          <div class="carousel-item" data-interval="900">
             <img src="https://i.imgur.com/VkdN6Ig.png" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item" data-interval="500">
+          <div class="carousel-item" data-interval="900">
+            <img src="https://i.imgur.com/zWuWNbk.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="800">
             <img src="https://i.imgur.com/Jpj6jpG.png" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item" data-interval="500">
+          <div class="carousel-item" data-interval="800">
             <img src="https://i.imgur.com/OXUuxLz.png" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item" data-interval="500">
+          <div class="carousel-item" data-interval="800">
             <img src="https://i.imgur.com/8gdRsjc.png" class="d-block w-100" alt="...">
           </div>
         </div>
@@ -357,7 +369,7 @@
 <div id="jumbo-bottom" class="jumbotron jumbotron-fluid">
   <div class="container" id="jumbo-text-container">
       <div id="social-media-stuff">
-            <div style="margin-top: 120px; margin-left: 10px;"><button class="custom-btn btn-12" style="color: #ffffff; font-family: 'Montserrat', sans-serif;""><span>Yeah!</span><span>Follow Papaya</span></button></div>
+            <div style="margin-top: 120px; margin-left: 10px;"><button class="custom-btn btn-12" style="color: #ffffff; font-family: 'Montserrat', sans-serif;""><span>Yeah!</span><span>Follow Us</span></button></div>
             <br>
             <div style="margin-top: 100px;" class ="frame">
               <a href="#" class="btn-social-media">
@@ -379,12 +391,12 @@
                 <i class="far fa-envelope"></i>
               </a>
             </div>
-            <div>
-              <img src="/Users/franciscosierramunoz/Development/code/Mod_3_Project-working_underscore/papaya-project-backend/public/images/papayeah_main_image.png" style="max-block-size: 300px; margin-left: 10%;">
+            <div id="yeah">
+              <img src="https://i.imgur.com/CgrvWLj.png" style="max-block-size: 300px; margin-left: 10%;">
             </div>
 
       </div>
-      <h1 style="color: #f9f8c5; font-family: 'Montserrat', sans-serif; text-shadow: 0 0 3px #610902, 0 0 5px #64f586;">Come visit our Papayas!</h1>
+      <h1 style="color: #f9f8c5; font-family: 'Montserrat', sans-serif; text-shadow: 0 0 3px #610902, 0 0 5px #64f586;">Come visit Us!</h1>
       <div class="map-responsive" style="margin-top: 10px;">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55386.846908605905!2d-95.4364660980813!3d29.81584763720107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ad6d4a1e49f10be!2sFlatiron%20School!5e0!3m2!1sen!2sus!4v1596165543160!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
